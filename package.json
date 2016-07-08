@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/RichardLee1978/gulp-remap.git"
@@ -21,8 +25,5 @@
     "url": "https://github.com/RichardLee1978/gulp-remap/issues"
   },
   "homepage": "https://github.com/RichardLee1978/gulp-remap#readme",
-  "devDependencies": {
-    "gulp-util": "^3.0.7",
-    "through2": "^2.0.1"
-  }
+  "devDependencies": {}
 }
