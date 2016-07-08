@@ -1,6 +1,6 @@
 ##gulp-remap
 Gulp task to map files and export a content of the buffer in json.only usein ttpai-feteam.
-usage
+..usage
 ```
 var gulp = require('gulp');
 var remap = require('gulp-remap');
