@@ -14,7 +14,7 @@ module.exports = function(name, prefix, rename) {
             msg = 'Streaming not supported';
             return cb(new gutil.PluginError(pluginName), msg);
         }
-        var relative = path.relative(file.cwd, file.path);
+        var relative = path.relative(file.cwd, file.path).replace(/\\/g, '/');
         var extension = path.extname(relative);
         var filename = path.basename(relative).slice(0, -extension.length);
         var filePath = {};
