@@ -4,6 +4,7 @@ var path = require('path');
 
 module.exports = function(name, prefix, rename) {
 	console.log('..............task runing................')
+	var now = Date.now();
 	var fileList = [];
 	return through.obj(function (file, enc, cb) {
 		if (file.isDirectory()) {
